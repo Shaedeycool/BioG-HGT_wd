@@ -5,6 +5,7 @@ Identification of mobile genetic elements and biogeochemical cycling genes found
 Recommended configuration:
 
 CPU threads ≥ 8
+
 RAM ≥ 16 Gb
 
 Step 1: Download working directory from Github Repository
