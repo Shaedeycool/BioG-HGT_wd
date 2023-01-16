@@ -18,9 +18,13 @@ https://www.docker.com
 
 # Running BioG-HGT profile 
 
+Copy metagenomic paired-end FASTQ reads to data subdirectory
+
+cp <reads> path/BioG-HGT_wd/data
+
 Change to the BioG-HGT working directory
 
-$ cd BioG-HGT_wd
+$ cd path/BioG-HGT_wd
 
 Environment setup: only needs to be done once.
 
