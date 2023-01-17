@@ -14,6 +14,8 @@ Anaconda/Miniconda package management system (https://www.anaconda.com/products/
 
 Docker (https://www.docker.com)
 
+wget (https://anaconda.org/anaconda/wget)
+
 Step 1: Download working directory from Github Repository
 
 git clone https://github.com/Shaedeycool/BioG-HGT_wd.git or click the green button Clone or download and select download ZIP to download the repo and unzip manually.
