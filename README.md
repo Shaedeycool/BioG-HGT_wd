@@ -43,7 +43,7 @@ $ make biog-hgt
 
 # Contact us
 
-email: 
+email: rudylu.monica@gmail.com
 
 # Citation
 Please include the following citations 
