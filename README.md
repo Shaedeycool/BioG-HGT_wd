@@ -40,11 +40,17 @@ $ make environment
 
 # STEP 2: Running BioG-HGT profile 
 
-1. Copy metagenomic paired-end FASTQ reads to data subdirectory:
+1. Running example: Download paired-end reads from figshare
+
+$ wget https://figshare.com/ndownloader/files/38865606 -O data/example_R1.fastq.gz
+
+$ wget https://figshare.com/ndownloader/files/38865615 -O data/example_R2.fastq.gz
+
+$ make biog-hgt
+
+2. Run BioG-HGT pipeline on own paired-reads: copy paired-end reads to data folder
 
 $ cp (path to paired-end reads) data
-
-2. Run BioG-HGT pipeline:
 
 $ make biog-hgt
 
