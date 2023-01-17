@@ -32,23 +32,23 @@ Step 3: Run Docker
 
 # Running BioG-HGT profile 
 
-Copy metagenomic paired-end FASTQ reads to data subdirectory:
+1. Copy metagenomic paired-end FASTQ reads to data subdirectory:
 
-mkdir data
+$ mkdir data
 
-cp (reads) data
+$ cp (reads) data
 
-mv data BioG-HGT_wd
+$ mv data BioG-HGT_wd
 
-Change to the BioG-HGT working directory:
+2. Change to the BioG-HGT working directory:
 
 $ cd BioG-HGT_wd
 
-Environment setup: only needs to be done once.
+3. Environment setup: only needs to be done once.
 
 $ make environment
 
-Run BioG-HGT pipeline:
+4. Run BioG-HGT pipeline:
 
 $ make biog-hgt
 
