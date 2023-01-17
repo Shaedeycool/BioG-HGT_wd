@@ -19,7 +19,7 @@ wget (https://anaconda.org/anaconda/wget)
 1. Download working directory from Github Repository
 
 ```
-$ git clone https://github.com/Shaedeycool/BioG-HGT_wd.git 
+git clone https://github.com/Shaedeycool/BioG-HGT_wd.git 
 ```
 
 Or click the green button Clone or download and select download ZIP to download the repo and unzip manually.
@@ -27,11 +27,11 @@ Or click the green button Clone or download and select download ZIP to download 
 2. Download database and database files
 
 ```
-$ wget https://figshare.com/ndownloader/files/38864850 -O BioG-HGT_wd/mobileOG-db/mobileOG-db-beatrix-1.5.dmnd
+wget https://figshare.com/ndownloader/files/38864850 -O BioG-HGT_wd/mobileOG-db/mobileOG-db-beatrix-1.5.dmnd
 
-$ wget https://figshare.com/ndownloader/files/38861292 -O BioG-HGT_wd/mobileOG-db/beatrix-1-5_v1_all/mobileOG-db-beatrix-1.5.All.csv
+wget https://figshare.com/ndownloader/files/38861292 -O BioG-HGT_wd/mobileOG-db/beatrix-1-5_v1_all/mobileOG-db-beatrix-1.5.All.csv
 
-$ wget https://figshare.com/ndownloader/files/38861988 -O BioG-HGT_wd/mobileOG-db/beatrix-1-5_v1_all/mobileOG-db-beatrix-1.5.All.faa
+wget https://figshare.com/ndownloader/files/38861988 -O BioG-HGT_wd/mobileOG-db/beatrix-1-5_v1_all/mobileOG-db-beatrix-1.5.All.faa
 ```
 
 3. Run Docker
@@ -39,13 +39,13 @@ $ wget https://figshare.com/ndownloader/files/38861988 -O BioG-HGT_wd/mobileOG-d
 4. Change to the BioG-HGT working directory:
 
 ```
-$ cd BioG-HGT_wd
+cd BioG-HGT_wd
 ```
 
 5. Environment setup: Only needs to be done once!
 
 ```
-$ make environment
+make environment
 ```
 
 # STEP 2: Running BioG-HGT profile 
@@ -53,19 +53,19 @@ $ make environment
 1. Running example: Download paired-end reads from figshare
 
 ```
-$ wget https://figshare.com/ndownloader/files/38865606 -O data/example_R1.fastq.gz
+wget https://figshare.com/ndownloader/files/38865606 -O data/example_R1.fastq.gz
 
-$ wget https://figshare.com/ndownloader/files/38865615 -O data/example_R2.fastq.gz
+wget https://figshare.com/ndownloader/files/38865615 -O data/example_R2.fastq.gz
 
-$ make biog-hgt
+make biog-hgt
 ```
 
 2. Run BioG-HGT pipeline on own paired-reads: copy paired-end reads to data folder
 
 ```
-$ cp (path to paired-end reads) data
+cp (path to paired-end reads) data
 
-$ make biog-hgt
+make biog-hgt
 ```
 
 # STEP 3: Results
@@ -77,7 +77,7 @@ $ make biog-hgt
 1. Move bcg_mge_dir out of BioG-HGT_wd
 
 ```
-$ mv bcg_mge_dir ../
+mv bcg_mge_dir ../
 ```
 
 # Contact us
