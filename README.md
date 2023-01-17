@@ -11,9 +11,9 @@ RAM ≥ 8 Gb
 
 Pre-requisites:
 
-Anaconda/Miniconda package management system
+Anaconda/Miniconda package management system (https://www.anaconda.com/products/distribution)
 
-Docker
+Docker (https://www.docker.com)
 
 
 Step 1: Download working directory from Github Repository
