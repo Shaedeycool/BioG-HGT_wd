@@ -6,15 +6,22 @@ Recommended configuration:
 
 CPU threads ≥ 8
 
-RAM ≥ 16 Gb
+RAM ≥ 8 Gb
+
+
+Pre-requisites:
+
+Anaconda/Miniconda package management system
+
+Docker
+
 
 Step 1: Download working directory from Github Repository
 
 git clone https://github.com/Shaedeycool/BioG-HGT_wd.git or click the green button Clone or download and select download ZIP to download the repo and unzip manually.
 
-Step 3: Install and run docker
 
-https://www.docker.com
+Step 2: Run Docker
 
 # Running BioG-HGT profile 
 
