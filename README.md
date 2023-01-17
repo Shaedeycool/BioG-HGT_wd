@@ -32,17 +32,17 @@ $ wget https://figshare.com/ndownloader/files/38861988 -O BioG-HGT_wd/mobileOG-d
 
 # Running BioG-HGT profile 
 
-1. Copy metagenomic paired-end FASTQ reads to data subdirectory:
-
-$ cp (path to paired-end reads) BioG-HGT_wd/data
-
-2. Change to the BioG-HGT working directory:
+1. Change to the BioG-HGT working directory:
 
 $ cd BioG-HGT_wd
 
-3. Environment setup: only needs to be done once.
+2. Environment setup: only needs to be done once.
 
 $ make environment
+
+3. Copy metagenomic paired-end FASTQ reads to data subdirectory:
+
+$ cp (path to paired-end reads) data
 
 4. Run BioG-HGT pipeline:
 
