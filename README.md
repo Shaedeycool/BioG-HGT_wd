@@ -50,11 +50,9 @@ $ make biog-hgt
 
 # STEP 3: Results
 
-1. The tab delimited output file "mge_bcg_bins_df.txt" can be found in:
+1. The tab delimited output file 'mge_bcg_bins_df.txt' can be found within 'bcg_mge_dir/mge_bcg_results' directory.
 
-$ cd bcg_mge_dir/mge_bcg_results
-
-# STEP 4: Remove bcg_mge_dir from BioG-HGT_wd
+# STEP 4: Saving 'bcg_mge_dir'
 
 1. Move bcg_mge_dir out of BioG-HGT_wd
 
