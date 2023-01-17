@@ -36,7 +36,7 @@ Step 3: Run Docker
 
 $ mkdir data
 
-$ cp (reads) data
+$ cp (path to paired-end reads) data
 
 $ mv data BioG-HGT_wd
 
