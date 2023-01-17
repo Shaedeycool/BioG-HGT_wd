@@ -3,6 +3,8 @@
 # Initialization command in the script
 source ~/miniconda3/etc/profile.d/conda.sh
 
+mkdir data
+
 ## Biogeochemical cycling genes - DiTing
 conda config --add channels defaults
 
