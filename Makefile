@@ -2,6 +2,10 @@
 environment:
 	bash makefile_scripts/MSc_sm_pipeline_environment.sh
 	
+# Make all
+biog-hgt:
+	make rename_pefiles bcg_bins mge_bcg_profile cleanup 
+
 # Rename paired-end reads files - formating
 rename_pefiles:
 	python scripts/MSc_sm_pipeline_rename.py
