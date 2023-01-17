@@ -1,7 +1,7 @@
 # BioG-HGT_wd
 Identification of mobile genetic elements and biogeochemical cycling genes found on the same contig in metagenomic sequencing, paired-end reads. 
 
-# Installation
+# STEP 1: Installation (Only needs to be done once)
 Recommended configuration:
 
 CPU threads ≥ 8
@@ -30,33 +30,35 @@ $ wget https://figshare.com/ndownloader/files/38861988 -O BioG-HGT_wd/mobileOG-d
 
 3. Run Docker
 
-# Running BioG-HGT profile 
-
-1. Change to the BioG-HGT working directory:
+4. Change to the BioG-HGT working directory:
 
 $ cd BioG-HGT_wd
 
-2. Environment setup: only needs to be done once.
+5. Environment setup: Only needs to be done once!
 
 $ make environment
 
-3. Copy metagenomic paired-end FASTQ reads to data subdirectory:
+# STEP 2: Running BioG-HGT profile 
+
+1. Copy metagenomic paired-end FASTQ reads to data subdirectory:
 
 $ cp (path to paired-end reads) data
 
-4. Run BioG-HGT pipeline:
+2. Run BioG-HGT pipeline:
 
 $ make biog-hgt
 
-# Results
+# STEP 3: Results
+
+1. The tab delimited output file "mge_bcg_bins_df.txt" can be found in:
+
+$ cd bcg_mge_dir/mge_bcg_results
+
+# STEP 4: Remove bcg_mge_dir from BioG-HGT_wd
 
 1. Move bcg_mge_dir out of BioG-HGT_wd
 
 $ mv bcg_mge_dir ../
-
-2. The tab delimited output file "mge_bcg_bins_df.txt" can be found:
-
-$ cd ../bcg_mge_dir/mge_bcg_results directory
 
 # Contact us
 
