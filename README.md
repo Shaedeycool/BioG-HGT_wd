@@ -34,11 +34,7 @@ $ wget https://figshare.com/ndownloader/files/38861988 -O BioG-HGT_wd/mobileOG-d
 
 1. Copy metagenomic paired-end FASTQ reads to data subdirectory:
 
-$ mkdir data
-
-$ cp (path to paired-end reads) data
-
-$ mv data BioG-HGT_wd
+$ cp (path to paired-end reads) BioG-HGT_wd/data
 
 2. Change to the BioG-HGT working directory:
 
@@ -51,6 +47,12 @@ $ make environment
 4. Run BioG-HGT pipeline:
 
 $ make biog-hgt
+
+# Results
+
+The tab delimited output file "mge_bcg_bins_df.txt" can be found:
+
+$ cd bcg_mge_dir/mge_bcg_results directory
 
 # Contact us
 
