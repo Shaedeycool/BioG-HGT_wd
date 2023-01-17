@@ -26,7 +26,7 @@ Copy metagenomic paired-end FASTQ reads to data subdirectory:
 
 mkdir data
 
-cp <reads> path/data
+cp (reads) path/data
 
 mv data path/BioG-HGT_wd
 
