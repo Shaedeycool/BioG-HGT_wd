@@ -34,15 +34,13 @@ wget https://figshare.com/ndownloader/files/38861292 -O BioG-HGT_wd/mobileOG-db/
 wget https://figshare.com/ndownloader/files/38861988 -O BioG-HGT_wd/mobileOG-db/beatrix-1-5_v1_all/mobileOG-db-beatrix-1.5.All.faa
 ```
 
-3. Run Docker
-
-4. Change to the BioG-HGT working directory:
+3. Change to the BioG-HGT working directory:
 
 ```
 cd BioG-HGT_wd
 ```
 
-5. Environment setup: Only needs to be done once!
+4. Environment setup: Only needs to be done once!
 
 ```
 make environment
