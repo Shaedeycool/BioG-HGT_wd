@@ -12,8 +12,6 @@ Pre-requisites:
 
 Anaconda/Miniconda package management system (https://www.anaconda.com/products/distribution)
 
-Docker (https://www.docker.com)
-
 wget (https://anaconda.org/anaconda/wget)
 
 1. Download working directory from Github Repository
