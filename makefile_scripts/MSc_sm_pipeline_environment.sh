@@ -42,6 +42,8 @@ conda create -y -n samtools_env
 
 conda install -y -c bioconda samtools # version 1.15.1
 
+conda install -c bioconda metabat2 # version 2.15
+
 conda deactivate
 
 
