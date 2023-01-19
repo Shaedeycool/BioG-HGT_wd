@@ -37,7 +37,9 @@ conda activate samtools_env
 samtools sort results/bbmap/mapped.sam -o results/bbmap/mapped.bam
 
 # Run MetaBAT2
-docker run --workdir $(pwd) --volume $(pwd):$(pwd) metabat/metabat:latest runMetaBat.sh diting_output/Assembly/sample_one.fa  results/bbmap/mapped.bam
+#docker run --workdir $(pwd) --volume $(pwd):$(pwd) metabat/metabat:latest runMetaBat.sh diting_output/Assembly/sample_one.fa  results/bbmap/mapped.bam
+
+runMetaBat.sh diting_output/Assembly/sample_one.fa  results/bbmap/mapped.bam
 
 # Check if there are bins in the bins directory
 if [ -z "$(ls -A sample_one.fa.metabat-bins*)" ]; then
