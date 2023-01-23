@@ -4,6 +4,8 @@ Identification of mobile genetic elements and biogeochemical cycling genes found
 # STEP 1: Installation (Only needs to be done once)
 Recommended configuration:
 
+Linux OS
+
 CPU threads ≥ 8
 
 RAM ≥ 8 Gb
