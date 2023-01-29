@@ -56,7 +56,7 @@ else
 
     # Run mobileOG pipeline
     cd ${mobileOG_output}
-    ./mobileOG-pl/mobileOGs-pl-kyanite.sh -i ../${bins}bins_all.fa -d mobileOG-db-beatrix-1.5.dmnd -m ${mobileOG_db}/mobileOG-db-beatrix-1.5.All.csv -k 15 -e 1e-20 -p 90 -q 90
+    bash /mobileOG-pl/mobileOGs-pl-kyanite.sh -i ../${bins}bins_all.fa -d mobileOG-db-beatrix-1.5.dmnd -m ${mobileOG_db}/mobileOG-db-beatrix-1.5.All.csv -k 15 -e 1e-20 -p 90 -q 90
     cd ..
 fi
 
