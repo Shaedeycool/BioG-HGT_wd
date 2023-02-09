@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Initialization command in the script
-source ~/miniconda3/etc/profile.d/conda.sh
+#source ~/miniconda3/etc/profile.d/conda.sh
+source `conda info --base`/etc/profile.d/conda.sh
 
 # Date and time
 date +%c
