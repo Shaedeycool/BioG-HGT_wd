@@ -60,11 +60,6 @@ wget https://figshare.com/ndownloader/files/38865615 -O data/example_R2.fastq.gz
 make biog-hgt
 ```
 
-1b. CAMI marine dataset sample downloaded from https://data.cami-challenge.org/participate used for the implementation of BioG-HGT.  
-```
-wget https://figshare.com/ndownloader/files/40696919
-```
-
 2. Run BioG-HGT pipeline on own paired-reads: copy paired-end reads to data folder
 
 ```
@@ -83,6 +78,13 @@ make biog-hgt
 
 ```
 mv bcg_mge_dir ../
+```
+
+# Implementation of BioG-HGT on insilico benchmark dataset
+
+1. CAMI marine dataset sample downloaded from https://data.cami-challenge.org/participate used for the implementation of BioG-HGT.  
+```
+wget https://figshare.com/ndownloader/files/40696919
 ```
 
 # Contact us
