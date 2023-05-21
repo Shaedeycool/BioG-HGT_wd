@@ -50,7 +50,7 @@ make environment
 
 # STEP 2: Running BioG-HGT profile 
 
-1. Running example: Download paired-end reads from figshare
+1a. Running example: Download paired-end reads from figshare
 
 ```
 wget https://figshare.com/ndownloader/files/38865606 -O data/example_R1.fastq.gz
@@ -58,6 +58,11 @@ wget https://figshare.com/ndownloader/files/38865606 -O data/example_R1.fastq.gz
 wget https://figshare.com/ndownloader/files/38865615 -O data/example_R2.fastq.gz
 
 make biog-hgt
+```
+
+1b. CAMI marine dataset sample downloaded from https://data.cami-challenge.org/participate used for the implementation of BioG-HGT.  
+```
+wget https://figshare.com/ndownloader/files/40696919
 ```
 
 2. Run BioG-HGT pipeline on own paired-reads: copy paired-end reads to data folder
@@ -85,4 +90,14 @@ mv bcg_mge_dir ../
 email: rudylu.monica@gmail.com
 
 # Citation
-Please include the following citations 
+Please include the following citations:
+
+Brown, C. L., Mullet, J., Hindi, F., Stoll, J. E., Gupta, S., Choi, M., Keenum, I., Vikesland, P., Pruden, A., & Zhang, L. (2021). mobileOG-db: a manually curated database of protein families mediating the life cycle of bacterial mobile genetic elements. bioRxiv, 2021.2008.2027.457951. https://doi.org/10.1101/2021.08.27.457951
+
+Xue, C. X., Lin, H., Zhu, X. Y., Liu, J., Zhang, Y., Rowley, G., Todd, J. D., Li, M., & Zhang, X. H. (2021). DiTing: A Pipeline to Infer and Compare Biogeochemical Pathways From Metagenomic and Metatranscriptomic Data. Front Microbiol, 12, 698286. https://doi.org/10.3389/fmicb.2021.698286
+
+Meyer, F., Fritz, A., Deng, Z.-L., Koslicki, D., Lesker, T. R., Gurevich, A., Robertson, G., Alser, M., Antipov, D., Beghini, F., Bertrand, D., Brito, J. J., Brown, C. T., Buchmann, J., Buluç, A., Chen, B., Chikhi, R., Clausen, P. T. L. C., Cristian, A., . . . McHardy, A. C. (2022). Critical Assessment of Metagenome Interpretation: the second round of challenges. Nature Methods, 19(4), 429-440. https://doi.org/10.1038/s41592-022-01431-4
+
+Kang, D. W. D., Li, F., Kirton, E., Thomas, A., Egan, R., An, H., & Wang, Z. (2019). MetaBAT 2: an adaptive binning algorithm for robust and efficient genome reconstruction from metagenome assemblies. Peerj, 7. https://doi.org/ARTN e7359
+
+Anaconda Software Distribution. (2020). Anaconda Documentation. Anaconda Inc. Retrieved from https://docs.anaconda.com/
