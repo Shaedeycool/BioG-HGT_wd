@@ -1,14 +1,14 @@
 # BioG-HGT_wd
-Identification of mobile genetic elements and biogeochemical cycling genes found on the same contig in metagenomic sequencing, paired-end reads. 
+BioGeochemical Horizontal Gene Transfer (BioG-HGT) pipeline identifies horizontally transferred biogeochemical genes with mobile genetic elements found on the same contig. This pipeline was assembled using a Linux Ubuntu 20.04.5 LTS (GNU/Linux 5.15.90.1-microsoft-standard-WSL2 x86_64) system with 4 cores and 24Gb RAM.
 
 # STEP 1: Installation (Only needs to be done once)
 Recommended configuration:
 
 Linux OS
 
-CPU threads ≥ 8
+CPU threads ≥ 4
 
-RAM ≥ 8 Gb
+RAM ≥ 24 Gb
 
 Pre-requisites:
 
