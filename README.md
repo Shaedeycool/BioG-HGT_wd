@@ -42,10 +42,17 @@ wget https://figshare.com/ndownloader/files/38861988 -O BioG-HGT_wd/mobileOG-db/
 cd BioG-HGT_wd
 ```
 
-4. Environment setup: Only needs to be done once!
+4. Conda environment setup: Only needs to be done once!
 
+Environment files can be found in the environment_files directory
 ```
-make environment
+conda env create -f environment_files/dataframes_env.yaml
+
+conda env create -f environment_files/diting_env.yaml
+
+conda env create -f environment_files/mobileOG-db_env.yaml
+
+conda env create -f environment_files/samtools_env.yaml
 ```
 
 # STEP 2: Running BioG-HGT profile 
