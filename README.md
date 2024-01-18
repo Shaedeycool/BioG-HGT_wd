@@ -3,6 +3,7 @@ BioGeochemical Horizontal Gene Transfer (BioG-HGT) pipeline identifies horizonta
 
 # Overview
 
+![Uploading workflow_1.png…]()
 
 # STEP 1: Installation (Only needs to be done once)
 Recommended configuration:
