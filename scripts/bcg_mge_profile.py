@@ -117,7 +117,7 @@ savedf(bcg_bins_df, 'dataframe_files/results/bcg_bins_df.txt')
 savedf(mge_bcg_bins_df, 'dataframe_files/results/mge_bcg_bins_df.txt')
 
 # Create and save Summary dataframe
-summary_df = mge_bcg_bins_df[['Specific_Contig', 'contig_length', 'gene_id_x', 'Gene Name', 'Minor mobileOG Category', 'gene_id_y', 'Detail', 'bin']] 
+summary_df = mge_bcg_bins_df[['Specific_Contig', 'contig_length', 'gene_id_x', 'Gene Name', 'Major mobileOG Category', 'gene_id_y', 'Detail', 'bin']] 
 # Drop rows with the same values on all columns
 summary = summary_df.drop_duplicates()
 # Save summary dataframe
