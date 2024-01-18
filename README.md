@@ -1,10 +1,6 @@
 # BioG-HGT_wd
 BioGeochemical Horizontal Gene Transfer (BioG-HGT) pipeline identifies horizontally transferred biogeochemical genes with mobile genetic elements found on the same contig. This pipeline was assembled using a Linux Ubuntu 20.04.5 LTS (GNU/Linux 5.15.90.1-microsoft-standard-WSL2 x86_64) system with 4 cores and 24Gb RAM.
 
-# Overview
-
-![Uploading workflow_1.png…]()
-
 # STEP 1: Installation (Only needs to be done once)
 Recommended configuration:
 
