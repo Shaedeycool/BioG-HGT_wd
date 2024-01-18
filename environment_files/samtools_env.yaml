@@ -1,0 +1,35 @@
+name: samtools_env
+channels:
+  - silentgene
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - bzip2=1.0.8=h7f98852_4
+  - c-ares=1.20.1=hd590300_1
+  - ca-certificates=2023.7.22=hbcca054_0
+  - htslib=1.18=h81da01d_0
+  - keyutils=1.6.1=h166bdaf_0
+  - krb5=1.21.2=h659d440_0
+  - libcurl=8.4.0=hca28451_0
+  - libdeflate=1.19=hd590300_0
+  - libedit=3.1.20191231=he28a2e2_2
+  - libev=4.33=h516909a_1
+  - libgcc-ng=13.2.0=h807b86a_2
+  - libgomp=13.2.0=h807b86a_2
+  - libnghttp2=1.55.1=h47da74e_0
+  - libnsl=2.0.1=hd590300_0
+  - libssh2=1.11.0=h0841786_0
+  - libstdcxx-ng=13.2.0=h7e041cc_2
+  - libzlib=1.2.13=hd590300_5
+  - metabat2=2.15=h986a166_1
+  - ncurses=6.4=h59595ed_2
+  - openssl=3.1.4=hd590300_0
+  - perl=5.32.1=4_hd590300_perl5
+  - samtools=1.18=h50ea8bc_1
+  - xz=5.2.6=h166bdaf_0
+  - zlib=1.2.13=hd590300_5
+  - zstd=1.5.5=hfc55251_0
+prefix: /home/shaedeycool/miniconda3/envs/samtools_env
