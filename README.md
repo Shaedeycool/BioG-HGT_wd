@@ -82,6 +82,7 @@ make biog-hgt
 # STEP 3: Results
 
 1. The tab delimited output file 'mge_bcg_bins_df.txt' can be found within 'bcg_mge_results' directory.
+2. Within the output file, the contig containing the annotations of the BGC gene and MGE is specified along with its corresponding MAG. Additional information includes the relative abundance of the BGC gene, and the e-value of the MGE and the sequences for both the BGC gene and MGE in the contig.
 
 ![](https://github.com/Shaedeycool/BioG-HGT_wd/blob/main/BioG-HGT_Output.png)
 
